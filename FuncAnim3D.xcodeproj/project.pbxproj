@@ -14,21 +14,15 @@
 		FA868B8A190D904100C62CC1 /* ANAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA868B89190D904100C62CC1 /* ANAppDelegate.m */; };
 		FA868B8D190D904100C62CC1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA868B8B190D904100C62CC1 /* MainMenu.xib */; };
 		FA868B8F190D904100C62CC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA868B8E190D904100C62CC1 /* Images.xcassets */; };
-		FA868B96190D904100C62CC1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA868B95190D904100C62CC1 /* XCTest.framework */; };
-		FA868B97190D904100C62CC1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA868B76190D904100C62CC1 /* Cocoa.framework */; };
-		FA868B9F190D904100C62CC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA868B9D190D904100C62CC1 /* InfoPlist.strings */; };
-		FA868BA1190D904100C62CC1 /* FuncAnim3DTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA868BA0190D904100C62CC1 /* FuncAnim3DTests.m */; };
+		FA868BAB190D91BE00C62CC1 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA868BAA190D91BE00C62CC1 /* OpenGL.framework */; };
+		FA868BAD190D92B700C62CC1 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA868BAC190D92B700C62CC1 /* JavaScriptCore.framework */; };
+		FA868BB0190D92FE00C62CC1 /* AN3DFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = FA868BAF190D92FE00C62CC1 /* AN3DFunction.m */; };
+		FA868BB2190D951C00C62CC1 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA868BB1190D951C00C62CC1 /* GLUT.framework */; };
+		FA868BB5190D95DB00C62CC1 /* AN3DFunctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA868BB4190D95DB00C62CC1 /* AN3DFunctionView.m */; };
+		FA868BB7190DA99E00C62CC1 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA868BB6190DA99E00C62CC1 /* GLKit.framework */; };
+		FA868BBA190DAF6B00C62CC1 /* AN3DModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA868BB9190DAF6B00C62CC1 /* AN3DModel.m */; };
+		FA868BBD190DBE8F00C62CC1 /* AN3DFunctionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA868BBC190DBE8F00C62CC1 /* AN3DFunctionModel.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		FA868B98190D904100C62CC1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA868B6B190D904100C62CC1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FA868B72190D904100C62CC1;
-			remoteInfo = FuncAnim3D;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FA868B73190D904100C62CC1 /* FuncAnim3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuncAnim3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,11 +39,19 @@
 		FA868B89190D904100C62CC1 /* ANAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANAppDelegate.m; sourceTree = "<group>"; };
 		FA868B8C190D904100C62CC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		FA868B8E190D904100C62CC1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		FA868B94190D904100C62CC1 /* FuncAnim3DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuncAnim3DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA868B95190D904100C62CC1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		FA868B9C190D904100C62CC1 /* FuncAnim3DTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FuncAnim3DTests-Info.plist"; sourceTree = "<group>"; };
-		FA868B9E190D904100C62CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FA868BA0190D904100C62CC1 /* FuncAnim3DTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FuncAnim3DTests.m; sourceTree = "<group>"; };
+		FA868BAA190D91BE00C62CC1 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		FA868BAC190D92B700C62CC1 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FA868BAE190D92FE00C62CC1 /* AN3DFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AN3DFunction.h; sourceTree = "<group>"; };
+		FA868BAF190D92FE00C62CC1 /* AN3DFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AN3DFunction.m; sourceTree = "<group>"; };
+		FA868BB1190D951C00C62CC1 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		FA868BB3190D95DB00C62CC1 /* AN3DFunctionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AN3DFunctionView.h; sourceTree = "<group>"; };
+		FA868BB4190D95DB00C62CC1 /* AN3DFunctionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AN3DFunctionView.m; sourceTree = "<group>"; };
+		FA868BB6190DA99E00C62CC1 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		FA868BB8190DAF6B00C62CC1 /* AN3DModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AN3DModel.h; sourceTree = "<group>"; };
+		FA868BB9190DAF6B00C62CC1 /* AN3DModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AN3DModel.m; sourceTree = "<group>"; };
+		FA868BBB190DBE8F00C62CC1 /* AN3DFunctionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AN3DFunctionModel.h; sourceTree = "<group>"; };
+		FA868BBC190DBE8F00C62CC1 /* AN3DFunctionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AN3DFunctionModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,16 +59,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA868BB7190DA99E00C62CC1 /* GLKit.framework in Frameworks */,
+				FA868BB2190D951C00C62CC1 /* GLUT.framework in Frameworks */,
+				FA868BAD190D92B700C62CC1 /* JavaScriptCore.framework in Frameworks */,
+				FA868BAB190D91BE00C62CC1 /* OpenGL.framework in Frameworks */,
 				FA868B77190D904100C62CC1 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA868B91190D904100C62CC1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA868B97190D904100C62CC1 /* Cocoa.framework in Frameworks */,
-				FA868B96190D904100C62CC1 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				FA868B7C190D904100C62CC1 /* FuncAnim3D */,
-				FA868B9A190D904100C62CC1 /* FuncAnim3DTests */,
 				FA868B75190D904100C62CC1 /* Frameworks */,
 				FA868B74190D904100C62CC1 /* Products */,
 			);
@@ -87,7 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				FA868B73190D904100C62CC1 /* FuncAnim3D.app */,
-				FA868B94190D904100C62CC1 /* FuncAnim3DTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +90,10 @@
 		FA868B75190D904100C62CC1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA868BB6190DA99E00C62CC1 /* GLKit.framework */,
+				FA868BB1190D951C00C62CC1 /* GLUT.framework */,
+				FA868BAC190D92B700C62CC1 /* JavaScriptCore.framework */,
+				FA868BAA190D91BE00C62CC1 /* OpenGL.framework */,
 				FA868B76190D904100C62CC1 /* Cocoa.framework */,
 				FA868B95190D904100C62CC1 /* XCTest.framework */,
 				FA868B78190D904100C62CC1 /* Other Frameworks */,
@@ -117,6 +116,14 @@
 			children = (
 				FA868B88190D904100C62CC1 /* ANAppDelegate.h */,
 				FA868B89190D904100C62CC1 /* ANAppDelegate.m */,
+				FA868BAE190D92FE00C62CC1 /* AN3DFunction.h */,
+				FA868BAF190D92FE00C62CC1 /* AN3DFunction.m */,
+				FA868BB3190D95DB00C62CC1 /* AN3DFunctionView.h */,
+				FA868BB4190D95DB00C62CC1 /* AN3DFunctionView.m */,
+				FA868BB8190DAF6B00C62CC1 /* AN3DModel.h */,
+				FA868BB9190DAF6B00C62CC1 /* AN3DModel.m */,
+				FA868BBB190DBE8F00C62CC1 /* AN3DFunctionModel.h */,
+				FA868BBC190DBE8F00C62CC1 /* AN3DFunctionModel.m */,
 				FA868B8B190D904100C62CC1 /* MainMenu.xib */,
 				FA868B8E190D904100C62CC1 /* Images.xcassets */,
 				FA868B7D190D904100C62CC1 /* Supporting Files */,
@@ -132,24 +139,6 @@
 				FA868B82190D904100C62CC1 /* main.m */,
 				FA868B84190D904100C62CC1 /* FuncAnim3D-Prefix.pch */,
 				FA868B85190D904100C62CC1 /* Credits.rtf */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		FA868B9A190D904100C62CC1 /* FuncAnim3DTests */ = {
-			isa = PBXGroup;
-			children = (
-				FA868BA0190D904100C62CC1 /* FuncAnim3DTests.m */,
-				FA868B9B190D904100C62CC1 /* Supporting Files */,
-			);
-			path = FuncAnim3DTests;
-			sourceTree = "<group>";
-		};
-		FA868B9B190D904100C62CC1 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				FA868B9C190D904100C62CC1 /* FuncAnim3DTests-Info.plist */,
-				FA868B9D190D904100C62CC1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -174,24 +163,6 @@
 			productReference = FA868B73190D904100C62CC1 /* FuncAnim3D.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FA868B93190D904100C62CC1 /* FuncAnim3DTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FA868BA7190D904100C62CC1 /* Build configuration list for PBXNativeTarget "FuncAnim3DTests" */;
-			buildPhases = (
-				FA868B90190D904100C62CC1 /* Sources */,
-				FA868B91190D904100C62CC1 /* Frameworks */,
-				FA868B92190D904100C62CC1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FA868B99190D904100C62CC1 /* PBXTargetDependency */,
-			);
-			name = FuncAnim3DTests;
-			productName = FuncAnim3DTests;
-			productReference = FA868B94190D904100C62CC1 /* FuncAnim3DTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -201,11 +172,6 @@
 				CLASSPREFIX = AN;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Alex Nichol";
-				TargetAttributes = {
-					FA868B93190D904100C62CC1 = {
-						TestTargetID = FA868B72190D904100C62CC1;
-					};
-				};
 			};
 			buildConfigurationList = FA868B6E190D904100C62CC1 /* Build configuration list for PBXProject "FuncAnim3D" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -221,7 +187,6 @@
 			projectRoot = "";
 			targets = (
 				FA868B72190D904100C62CC1 /* FuncAnim3D */,
-				FA868B93190D904100C62CC1 /* FuncAnim3DTests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,14 +203,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA868B92190D904100C62CC1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA868B9F190D904100C62CC1 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -253,28 +210,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA868BB0190D92FE00C62CC1 /* AN3DFunction.m in Sources */,
+				FA868BBA190DAF6B00C62CC1 /* AN3DModel.m in Sources */,
 				FA868B83190D904100C62CC1 /* main.m in Sources */,
+				FA868BBD190DBE8F00C62CC1 /* AN3DFunctionModel.m in Sources */,
 				FA868B8A190D904100C62CC1 /* ANAppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA868B90190D904100C62CC1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA868BA1190D904100C62CC1 /* FuncAnim3DTests.m in Sources */,
+				FA868BB5190D95DB00C62CC1 /* AN3DFunctionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FA868B99190D904100C62CC1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FA868B72190D904100C62CC1 /* FuncAnim3D */;
-			targetProxy = FA868B98190D904100C62CC1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FA868B7F190D904100C62CC1 /* InfoPlist.strings */ = {
@@ -299,14 +244,6 @@
 				FA868B8C190D904100C62CC1 /* Base */,
 			);
 			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		FA868B9D190D904100C62CC1 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA868B9E190D904100C62CC1 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -406,46 +343,6 @@
 			};
 			name = Release;
 		};
-		FA868BA8190D904100C62CC1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FuncAnim3D.app/Contents/MacOS/FuncAnim3D";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FuncAnim3D/FuncAnim3D-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "FuncAnim3DTests/FuncAnim3DTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		FA868BA9190D904100C62CC1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FuncAnim3D.app/Contents/MacOS/FuncAnim3D";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FuncAnim3D/FuncAnim3D-Prefix.pch";
-				INFOPLIST_FILE = "FuncAnim3DTests/FuncAnim3DTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -463,14 +360,6 @@
 			buildConfigurations = (
 				FA868BA5190D904100C62CC1 /* Debug */,
 				FA868BA6190D904100C62CC1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		FA868BA7190D904100C62CC1 /* Build configuration list for PBXNativeTarget "FuncAnim3DTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FA868BA8190D904100C62CC1 /* Debug */,
-				FA868BA9190D904100C62CC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

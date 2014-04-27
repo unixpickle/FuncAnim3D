@@ -10,9 +10,11 @@
 
 @implementation ANAppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
-{
-  // Insert code here to initialize your application
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+}
+
+- (IBAction)functionChanged:(id)sender {
+  
 }
 
 @end

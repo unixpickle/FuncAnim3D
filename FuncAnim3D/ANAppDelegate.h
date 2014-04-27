@@ -7,9 +7,15 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "AN3DFunctionView.h"
 
-@interface ANAppDelegate : NSObject <NSApplicationDelegate>
+@interface ANAppDelegate : NSObject <NSApplicationDelegate> {
+  IBOutlet NSOpenGLView * oglView;
+  IBOutlet NSTextField * fnView;
+}
 
-@property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet NSWindow * window;
+
+- (IBAction)functionChanged:(id)sender;
 
 @end
