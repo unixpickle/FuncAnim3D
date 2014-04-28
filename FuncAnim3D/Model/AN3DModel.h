@@ -8,12 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import <GLKit/GLKit.h>
-#import <OpenGL/OpenGL.h>
+#import <OpenGL/gl3.h>
 
 @interface AN3DModel : NSObject {
   GLuint buffer;
   GLuint vertexArray;
   GLuint vertexCount;
+  void * _verts;
 }
 
 - (id)initWithVertices:(GLfloat *)verts vertexCount:(GLuint)count;

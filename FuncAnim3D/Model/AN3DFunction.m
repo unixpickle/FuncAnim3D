@@ -20,9 +20,9 @@
   return self;
 }
 
-- (BOOL)evaluate:(double *)output x:(double)x y:(double)y t:(double)t {
+- (BOOL)evaluate:(double *)output x:(double)x z:(double)z t:(double)t {
   context[@"x"] = @(x);
-  context[@"y"] = @(y);
+  context[@"z"] = @(z);
   context[@"t"] = @(t);
   JSValue * value = [context evaluateScript:funcString];
   if ([context exception]) return NO;

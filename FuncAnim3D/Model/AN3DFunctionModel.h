@@ -8,25 +8,19 @@
 
 #import "AN3DModel.h"
 #import "AN3DFunction.h"
+#import "AN3DGraphInfo.h"
 
 @interface AN3DFunctionModel : AN3DModel {
   AN3DFunction * func;
   GLfloat * data;
-  GLuint xCount, yCount;
-  
-  GLfloat xStart, yStart;
-  GLfloat sampleWidth, sampleHeight;
+  AN3DGraphInfo * info;
   GLKVector4 color;
 }
 
 - (id)initWithFunction:(AN3DFunction *)func
-                xCount:(GLuint)xCount
-                yCount:(GLuint)yCount
-                startX:(GLfloat)xStart
-                startY:(GLfloat)yStart
-                 width:(GLfloat)sampleWidth
-                height:(GLfloat)sampleHeight
+                  info:(AN3DGraphInfo *)info
                  color:(GLKVector4)color;
+
 - (BOOL)generateWithT:(double)tValue;
 
 @end

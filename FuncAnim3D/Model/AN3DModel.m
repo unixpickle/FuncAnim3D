@@ -20,12 +20,17 @@
     glBindVertexArray(vertexArray);
     glBindBuffer(GL_ARRAY_BUFFER, buffer);
     
-    glBufferData(GL_ARRAY_BUFFER, n * sizeof(GLfloat) * 7, (void *)verts, GL_DYNAMIC_DRAW);
+    _verts = verts;
+    glBufferData(GL_ARRAY_BUFFER, n * sizeof(GLfloat) * 10, (void *)verts, GL_DYNAMIC_DRAW);
     glEnableVertexAttribArray(GLKVertexAttribPosition);
-    glVertexAttribPointer(GLKVertexAttribPosition, 3, GL_FLOAT, GL_FALSE, 7 * sizeof(GLfloat), 0);
+    glVertexAttribPointer(GLKVertexAttribPosition, 3, GL_FLOAT, GL_FALSE, 10 * sizeof(GLfloat), 0);
     glEnableVertexAttribArray(GLKVertexAttribColor);
     glVertexAttribPointer(GLKVertexAttribColor, 4, GL_FLOAT,
-                          GL_FALSE, 7 * sizeof(GLfloat),
+                          GL_FALSE, 10 * sizeof(GLfloat),
+                          (void *)(sizeof(GLfloat) * 3));
+    glEnableVertexAttribArray(GLKVertexAttribNormal);
+    glVertexAttribPointer(GLKVertexAttribNormal, 3, GL_FLOAT,
+                          GL_TRUE, 10 * sizeof(GLfloat),
                           (void *)(sizeof(GLfloat) * 3));
     glBindVertexArray(0);
   }
@@ -35,7 +40,8 @@
 - (void)draw {
   glBindVertexArray(vertexArray);
   glBindBuffer(GL_ARRAY_BUFFER, buffer);
-  glDrawArrays(GL_TRIANGLES, 0, 3);
+  glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(GLfloat) * 10 * vertexCount, _verts);
+  glDrawArrays(GL_TRIANGLES, 0, vertexCount);
 }
 
 - (void)dealloc {

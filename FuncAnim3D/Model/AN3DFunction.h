@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 #import <JavaScriptCore/JavaScriptCore.h>
 #import <OpenGL/OpenGL.h>
-#import <GLUT/GLUT.h>
 
 @interface AN3DFunction : NSObject {
   NSString * funcString;
@@ -19,7 +18,7 @@
 }
 
 - (id)initWithFuncString:(NSString *)string;
-- (BOOL)evaluate:(double *)output x:(double)x y:(double)y t:(double)t;
+- (BOOL)evaluate:(double *)output x:(double)x z:(double)z t:(double)t;
 
 - (void)drawInGLContext;
 

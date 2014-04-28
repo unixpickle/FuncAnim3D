@@ -16,12 +16,13 @@
 		FA868B8F190D904100C62CC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA868B8E190D904100C62CC1 /* Images.xcassets */; };
 		FA868BAB190D91BE00C62CC1 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA868BAA190D91BE00C62CC1 /* OpenGL.framework */; };
 		FA868BAD190D92B700C62CC1 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA868BAC190D92B700C62CC1 /* JavaScriptCore.framework */; };
-		FA868BB0190D92FE00C62CC1 /* AN3DFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = FA868BAF190D92FE00C62CC1 /* AN3DFunction.m */; };
 		FA868BB2190D951C00C62CC1 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA868BB1190D951C00C62CC1 /* GLUT.framework */; };
 		FA868BB5190D95DB00C62CC1 /* AN3DFunctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA868BB4190D95DB00C62CC1 /* AN3DFunctionView.m */; };
 		FA868BB7190DA99E00C62CC1 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA868BB6190DA99E00C62CC1 /* GLKit.framework */; };
-		FA868BBA190DAF6B00C62CC1 /* AN3DModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA868BB9190DAF6B00C62CC1 /* AN3DModel.m */; };
-		FA868BBD190DBE8F00C62CC1 /* AN3DFunctionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA868BBC190DBE8F00C62CC1 /* AN3DFunctionModel.m */; };
+		FAC1A1E5190EDE7700283F3A /* AN3DFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC1A1DE190EDE7700283F3A /* AN3DFunction.m */; };
+		FAC1A1E6190EDE7700283F3A /* AN3DFunctionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC1A1E0190EDE7700283F3A /* AN3DFunctionModel.m */; };
+		FAC1A1E7190EDE7700283F3A /* AN3DGraphInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC1A1E2190EDE7700283F3A /* AN3DGraphInfo.m */; };
+		FAC1A1E8190EDE7700283F3A /* AN3DModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC1A1E4190EDE7700283F3A /* AN3DModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,16 +43,18 @@
 		FA868B95190D904100C62CC1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FA868BAA190D91BE00C62CC1 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		FA868BAC190D92B700C62CC1 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		FA868BAE190D92FE00C62CC1 /* AN3DFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AN3DFunction.h; sourceTree = "<group>"; };
-		FA868BAF190D92FE00C62CC1 /* AN3DFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AN3DFunction.m; sourceTree = "<group>"; };
 		FA868BB1190D951C00C62CC1 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		FA868BB3190D95DB00C62CC1 /* AN3DFunctionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AN3DFunctionView.h; sourceTree = "<group>"; };
 		FA868BB4190D95DB00C62CC1 /* AN3DFunctionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AN3DFunctionView.m; sourceTree = "<group>"; };
 		FA868BB6190DA99E00C62CC1 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
-		FA868BB8190DAF6B00C62CC1 /* AN3DModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AN3DModel.h; sourceTree = "<group>"; };
-		FA868BB9190DAF6B00C62CC1 /* AN3DModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AN3DModel.m; sourceTree = "<group>"; };
-		FA868BBB190DBE8F00C62CC1 /* AN3DFunctionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AN3DFunctionModel.h; sourceTree = "<group>"; };
-		FA868BBC190DBE8F00C62CC1 /* AN3DFunctionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AN3DFunctionModel.m; sourceTree = "<group>"; };
+		FAC1A1DD190EDE7700283F3A /* AN3DFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AN3DFunction.h; sourceTree = "<group>"; };
+		FAC1A1DE190EDE7700283F3A /* AN3DFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AN3DFunction.m; sourceTree = "<group>"; };
+		FAC1A1DF190EDE7700283F3A /* AN3DFunctionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AN3DFunctionModel.h; sourceTree = "<group>"; };
+		FAC1A1E0190EDE7700283F3A /* AN3DFunctionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AN3DFunctionModel.m; sourceTree = "<group>"; };
+		FAC1A1E1190EDE7700283F3A /* AN3DGraphInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AN3DGraphInfo.h; sourceTree = "<group>"; };
+		FAC1A1E2190EDE7700283F3A /* AN3DGraphInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AN3DGraphInfo.m; sourceTree = "<group>"; };
+		FAC1A1E3190EDE7700283F3A /* AN3DModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AN3DModel.h; sourceTree = "<group>"; };
+		FAC1A1E4190EDE7700283F3A /* AN3DModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AN3DModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,16 +117,11 @@
 		FA868B7C190D904100C62CC1 /* FuncAnim3D */ = {
 			isa = PBXGroup;
 			children = (
+				FAC1A1DC190EDE7700283F3A /* Model */,
 				FA868B88190D904100C62CC1 /* ANAppDelegate.h */,
 				FA868B89190D904100C62CC1 /* ANAppDelegate.m */,
-				FA868BAE190D92FE00C62CC1 /* AN3DFunction.h */,
-				FA868BAF190D92FE00C62CC1 /* AN3DFunction.m */,
 				FA868BB3190D95DB00C62CC1 /* AN3DFunctionView.h */,
 				FA868BB4190D95DB00C62CC1 /* AN3DFunctionView.m */,
-				FA868BB8190DAF6B00C62CC1 /* AN3DModel.h */,
-				FA868BB9190DAF6B00C62CC1 /* AN3DModel.m */,
-				FA868BBB190DBE8F00C62CC1 /* AN3DFunctionModel.h */,
-				FA868BBC190DBE8F00C62CC1 /* AN3DFunctionModel.m */,
 				FA868B8B190D904100C62CC1 /* MainMenu.xib */,
 				FA868B8E190D904100C62CC1 /* Images.xcassets */,
 				FA868B7D190D904100C62CC1 /* Supporting Files */,
@@ -141,6 +139,21 @@
 				FA868B85190D904100C62CC1 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAC1A1DC190EDE7700283F3A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAC1A1DD190EDE7700283F3A /* AN3DFunction.h */,
+				FAC1A1DE190EDE7700283F3A /* AN3DFunction.m */,
+				FAC1A1DF190EDE7700283F3A /* AN3DFunctionModel.h */,
+				FAC1A1E0190EDE7700283F3A /* AN3DFunctionModel.m */,
+				FAC1A1E1190EDE7700283F3A /* AN3DGraphInfo.h */,
+				FAC1A1E2190EDE7700283F3A /* AN3DGraphInfo.m */,
+				FAC1A1E3190EDE7700283F3A /* AN3DModel.h */,
+				FAC1A1E4190EDE7700283F3A /* AN3DModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,11 +223,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA868BB0190D92FE00C62CC1 /* AN3DFunction.m in Sources */,
-				FA868BBA190DAF6B00C62CC1 /* AN3DModel.m in Sources */,
 				FA868B83190D904100C62CC1 /* main.m in Sources */,
-				FA868BBD190DBE8F00C62CC1 /* AN3DFunctionModel.m in Sources */,
+				FAC1A1E5190EDE7700283F3A /* AN3DFunction.m in Sources */,
+				FAC1A1E6190EDE7700283F3A /* AN3DFunctionModel.m in Sources */,
 				FA868B8A190D904100C62CC1 /* ANAppDelegate.m in Sources */,
+				FAC1A1E8190EDE7700283F3A /* AN3DModel.m in Sources */,
+				FAC1A1E7190EDE7700283F3A /* AN3DGraphInfo.m in Sources */,
 				FA868BB5190D95DB00C62CC1 /* AN3DFunctionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +376,7 @@
 				FA868BA6190D904100C62CC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
