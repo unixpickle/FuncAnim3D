@@ -7,18 +7,18 @@
 //
 
 #import "AN3DModel.h"
-#import "AN3DFunction.h"
-#import "AN3DGraphInfo.h"
+#import "FAFunction.h"
+#import "FAPointSpreader.h"
 
-@interface AN3DFunctionModel : AN3DModel {
-  AN3DFunction * func;
+@interface FAFunctionModel : AN3DModel {
+  FAFunction * func;
   GLfloat * data;
-  AN3DGraphInfo * info;
+  id<FAPointSpreader> spreader;
   GLKVector4 color;
 }
 
-- (id)initWithFunction:(AN3DFunction *)func
-                  info:(AN3DGraphInfo *)info
+- (id)initWithFunction:(FAFunction *)func
+              spreader:(id<FAPointSpreader>)spreader
                  color:(GLKVector4)color;
 
 - (BOOL)generateWithT:(double)tValue;

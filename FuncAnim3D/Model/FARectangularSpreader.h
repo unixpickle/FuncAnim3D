@@ -6,10 +6,9 @@
 //  Copyright (c) 2014 Alex Nichol. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import <GLKit/GLKit.h>
+#import "FAPointSpreader.h"
 
-@interface AN3DGraphInfo : NSObject
+@interface FARectangularSpreader : NSObject <FAPointSpreader>
 
 @property (readwrite) GLuint xCount, yCount;
 @property (readwrite) GLfloat xStart, yStart;

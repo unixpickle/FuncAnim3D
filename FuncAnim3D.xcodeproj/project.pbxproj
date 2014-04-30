@@ -17,12 +17,15 @@
 		FA868BAB190D91BE00C62CC1 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA868BAA190D91BE00C62CC1 /* OpenGL.framework */; };
 		FA868BAD190D92B700C62CC1 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA868BAC190D92B700C62CC1 /* JavaScriptCore.framework */; };
 		FA868BB2190D951C00C62CC1 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA868BB1190D951C00C62CC1 /* GLUT.framework */; };
-		FA868BB5190D95DB00C62CC1 /* AN3DFunctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA868BB4190D95DB00C62CC1 /* AN3DFunctionView.m */; };
 		FA868BB7190DA99E00C62CC1 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA868BB6190DA99E00C62CC1 /* GLKit.framework */; };
-		FAC1A1E5190EDE7700283F3A /* AN3DFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC1A1DE190EDE7700283F3A /* AN3DFunction.m */; };
-		FAC1A1E6190EDE7700283F3A /* AN3DFunctionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC1A1E0190EDE7700283F3A /* AN3DFunctionModel.m */; };
-		FAC1A1E7190EDE7700283F3A /* AN3DGraphInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC1A1E2190EDE7700283F3A /* AN3DGraphInfo.m */; };
-		FAC1A1E8190EDE7700283F3A /* AN3DModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC1A1E4190EDE7700283F3A /* AN3DModel.m */; };
+		FAC1A1E5190EDE7700283F3A /* FAFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC1A1DE190EDE7700283F3A /* FAFunction.m */; };
+		FAC1A1E6190EDE7700283F3A /* FAFunctionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC1A1E0190EDE7700283F3A /* FAFunctionModel.m */; };
+		FAC1A1E7190EDE7700283F3A /* FARectangularSpreader.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC1A1E2190EDE7700283F3A /* FARectangularSpreader.m */; };
+		FADE5A4919103D1B0003E1B5 /* AN3DFunctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE5A4619103D1B0003E1B5 /* AN3DFunctionView.m */; };
+		FADE5A4A19103D1B0003E1B5 /* AN3DModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE5A4819103D1B0003E1B5 /* AN3DModel.m */; };
+		FADE5A4D19103D450003E1B5 /* ANSpreadPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE5A4C19103D450003E1B5 /* ANSpreadPickerView.m */; };
+		FADE5A4F19103D780003E1B5 /* SpreaderViews.xib in Resources */ = {isa = PBXBuildFile; fileRef = FADE5A4E19103D780003E1B5 /* SpreaderViews.xib */; };
+		FADE5A52191064540003E1B5 /* FARadialSpreader.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE5A51191064540003E1B5 /* FARadialSpreader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,17 +47,23 @@
 		FA868BAA190D91BE00C62CC1 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		FA868BAC190D92B700C62CC1 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FA868BB1190D951C00C62CC1 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
-		FA868BB3190D95DB00C62CC1 /* AN3DFunctionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AN3DFunctionView.h; sourceTree = "<group>"; };
-		FA868BB4190D95DB00C62CC1 /* AN3DFunctionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AN3DFunctionView.m; sourceTree = "<group>"; };
 		FA868BB6190DA99E00C62CC1 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
-		FAC1A1DD190EDE7700283F3A /* AN3DFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AN3DFunction.h; sourceTree = "<group>"; };
-		FAC1A1DE190EDE7700283F3A /* AN3DFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AN3DFunction.m; sourceTree = "<group>"; };
-		FAC1A1DF190EDE7700283F3A /* AN3DFunctionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AN3DFunctionModel.h; sourceTree = "<group>"; };
-		FAC1A1E0190EDE7700283F3A /* AN3DFunctionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AN3DFunctionModel.m; sourceTree = "<group>"; };
-		FAC1A1E1190EDE7700283F3A /* AN3DGraphInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AN3DGraphInfo.h; sourceTree = "<group>"; };
-		FAC1A1E2190EDE7700283F3A /* AN3DGraphInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AN3DGraphInfo.m; sourceTree = "<group>"; };
-		FAC1A1E3190EDE7700283F3A /* AN3DModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AN3DModel.h; sourceTree = "<group>"; };
-		FAC1A1E4190EDE7700283F3A /* AN3DModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AN3DModel.m; sourceTree = "<group>"; };
+		FAC1A1DD190EDE7700283F3A /* FAFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAFunction.h; sourceTree = "<group>"; };
+		FAC1A1DE190EDE7700283F3A /* FAFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAFunction.m; sourceTree = "<group>"; };
+		FAC1A1DF190EDE7700283F3A /* FAFunctionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAFunctionModel.h; sourceTree = "<group>"; };
+		FAC1A1E0190EDE7700283F3A /* FAFunctionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAFunctionModel.m; sourceTree = "<group>"; };
+		FAC1A1E1190EDE7700283F3A /* FARectangularSpreader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FARectangularSpreader.h; sourceTree = "<group>"; };
+		FAC1A1E2190EDE7700283F3A /* FARectangularSpreader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FARectangularSpreader.m; sourceTree = "<group>"; };
+		FADE5A43191038D00003E1B5 /* FAPointSpreader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAPointSpreader.h; sourceTree = "<group>"; };
+		FADE5A4519103D1B0003E1B5 /* AN3DFunctionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AN3DFunctionView.h; sourceTree = "<group>"; };
+		FADE5A4619103D1B0003E1B5 /* AN3DFunctionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AN3DFunctionView.m; sourceTree = "<group>"; };
+		FADE5A4719103D1B0003E1B5 /* AN3DModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AN3DModel.h; sourceTree = "<group>"; };
+		FADE5A4819103D1B0003E1B5 /* AN3DModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AN3DModel.m; sourceTree = "<group>"; };
+		FADE5A4B19103D450003E1B5 /* ANSpreadPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSpreadPickerView.h; sourceTree = "<group>"; };
+		FADE5A4C19103D450003E1B5 /* ANSpreadPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSpreadPickerView.m; sourceTree = "<group>"; };
+		FADE5A4E19103D780003E1B5 /* SpreaderViews.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpreaderViews.xib; sourceTree = "<group>"; };
+		FADE5A50191064530003E1B5 /* FARadialSpreader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FARadialSpreader.h; sourceTree = "<group>"; };
+		FADE5A51191064540003E1B5 /* FARadialSpreader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FARadialSpreader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,12 +126,12 @@
 		FA868B7C190D904100C62CC1 /* FuncAnim3D */ = {
 			isa = PBXGroup;
 			children = (
+				FADE5A4419103D1B0003E1B5 /* View */,
 				FAC1A1DC190EDE7700283F3A /* Model */,
 				FA868B88190D904100C62CC1 /* ANAppDelegate.h */,
 				FA868B89190D904100C62CC1 /* ANAppDelegate.m */,
-				FA868BB3190D95DB00C62CC1 /* AN3DFunctionView.h */,
-				FA868BB4190D95DB00C62CC1 /* AN3DFunctionView.m */,
 				FA868B8B190D904100C62CC1 /* MainMenu.xib */,
+				FADE5A4E19103D780003E1B5 /* SpreaderViews.xib */,
 				FA868B8E190D904100C62CC1 /* Images.xcassets */,
 				FA868B7D190D904100C62CC1 /* Supporting Files */,
 			);
@@ -144,16 +153,30 @@
 		FAC1A1DC190EDE7700283F3A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FAC1A1DD190EDE7700283F3A /* AN3DFunction.h */,
-				FAC1A1DE190EDE7700283F3A /* AN3DFunction.m */,
-				FAC1A1DF190EDE7700283F3A /* AN3DFunctionModel.h */,
-				FAC1A1E0190EDE7700283F3A /* AN3DFunctionModel.m */,
-				FAC1A1E1190EDE7700283F3A /* AN3DGraphInfo.h */,
-				FAC1A1E2190EDE7700283F3A /* AN3DGraphInfo.m */,
-				FAC1A1E3190EDE7700283F3A /* AN3DModel.h */,
-				FAC1A1E4190EDE7700283F3A /* AN3DModel.m */,
+				FAC1A1DD190EDE7700283F3A /* FAFunction.h */,
+				FAC1A1DE190EDE7700283F3A /* FAFunction.m */,
+				FAC1A1DF190EDE7700283F3A /* FAFunctionModel.h */,
+				FAC1A1E0190EDE7700283F3A /* FAFunctionModel.m */,
+				FADE5A43191038D00003E1B5 /* FAPointSpreader.h */,
+				FAC1A1E1190EDE7700283F3A /* FARectangularSpreader.h */,
+				FAC1A1E2190EDE7700283F3A /* FARectangularSpreader.m */,
+				FADE5A50191064530003E1B5 /* FARadialSpreader.h */,
+				FADE5A51191064540003E1B5 /* FARadialSpreader.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		FADE5A4419103D1B0003E1B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FADE5A4519103D1B0003E1B5 /* AN3DFunctionView.h */,
+				FADE5A4619103D1B0003E1B5 /* AN3DFunctionView.m */,
+				FADE5A4719103D1B0003E1B5 /* AN3DModel.h */,
+				FADE5A4819103D1B0003E1B5 /* AN3DModel.m */,
+				FADE5A4B19103D450003E1B5 /* ANSpreadPickerView.h */,
+				FADE5A4C19103D450003E1B5 /* ANSpreadPickerView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA868B81190D904100C62CC1 /* InfoPlist.strings in Resources */,
+				FADE5A4F19103D780003E1B5 /* SpreaderViews.xib in Resources */,
 				FA868B8F190D904100C62CC1 /* Images.xcassets in Resources */,
 				FA868B87190D904100C62CC1 /* Credits.rtf in Resources */,
 				FA868B8D190D904100C62CC1 /* MainMenu.xib in Resources */,
@@ -223,13 +247,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADE5A4919103D1B0003E1B5 /* AN3DFunctionView.m in Sources */,
 				FA868B83190D904100C62CC1 /* main.m in Sources */,
-				FAC1A1E5190EDE7700283F3A /* AN3DFunction.m in Sources */,
-				FAC1A1E6190EDE7700283F3A /* AN3DFunctionModel.m in Sources */,
+				FAC1A1E5190EDE7700283F3A /* FAFunction.m in Sources */,
+				FAC1A1E6190EDE7700283F3A /* FAFunctionModel.m in Sources */,
+				FADE5A4A19103D1B0003E1B5 /* AN3DModel.m in Sources */,
 				FA868B8A190D904100C62CC1 /* ANAppDelegate.m in Sources */,
-				FAC1A1E8190EDE7700283F3A /* AN3DModel.m in Sources */,
-				FAC1A1E7190EDE7700283F3A /* AN3DGraphInfo.m in Sources */,
-				FA868BB5190D95DB00C62CC1 /* AN3DFunctionView.m in Sources */,
+				FADE5A4D19103D450003E1B5 /* ANSpreadPickerView.m in Sources */,
+				FAC1A1E7190EDE7700283F3A /* FARectangularSpreader.m in Sources */,
+				FADE5A52191064540003E1B5 /* FARadialSpreader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -41,7 +41,7 @@
     
     effect.light1.position = GLKVector4Make(0.0, 5.0, 0.0, 1);
     effect.light1.enabled = GL_TRUE;
-    effect.light1.diffuseColor = GLKVector4Make(0.6, 0.6, 0.6, 1);
+    effect.light1.diffuseColor = GLKVector4Make(0.8, 0.8, 0.8, 1);
     effect.light1.ambientColor = GLKVector4Make(0.3, 0.3, 0.3, 1);
     
     self.translation = GLKVector3Make(0, 0, -10);
@@ -57,11 +57,11 @@
   [context update];
 }
 
-- (void)setFunction:(AN3DFunction *)fn info:(AN3DGraphInfo *)info {
+- (void)setFunction:(FAFunction *)fn info:(FARectangularSpreader *)info {
   [context makeCurrentContext];
-  AN3DFunctionModel * theModel = [[AN3DFunctionModel alloc] initWithFunction:fn
-                                                                        info:info
-                                                                       color:GLKVector4Make(1, 0, 0, 1)];
+  FAFunctionModel * theModel = [[FAFunctionModel alloc] initWithFunction:fn
+                                                                spreader:info
+                                                                   color:GLKVector4Make(1, 1, 0, 1)];
   [theModel generateWithT:0];
   _model = theModel;
   [self setNeedsDisplay:YES];
@@ -77,7 +77,7 @@
 - (void)drawRect:(NSRect)dirtyRect {
   [context setView:self];
   [context makeCurrentContext];
-  glClearColor(0, 0, 0, 1.0f);
+  glClearColor(1, 1, 1, 1.0f);
   glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
   
   glViewport(0, 0, [self frame].size.width, [self frame].size.height);

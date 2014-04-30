@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Alex Nichol. All rights reserved.
 //
 
-#import "AN3DFunction.h"
+#import "FAFunction.h"
 
-@implementation AN3DFunction
+@implementation FAFunction
 
 - (id)initWithFuncString:(NSString *)string {
   if ((self = [super init])) {

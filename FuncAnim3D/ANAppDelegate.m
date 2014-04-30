@@ -7,11 +7,13 @@
 //
 
 #import "ANAppDelegate.h"
-#import "AN3DFunctionModel.h"
+#import "FAFunctionModel.h"
 
 @implementation ANAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+  spreadPicker.target = self;
+  spreadPicker.action = @selector(spreadChange);
 }
 
 - (IBAction)toggleAnimating:(id)sender {
@@ -39,16 +41,13 @@
   [oglView setNeedsDisplay:YES];
 }
 
+- (void)spreadChange {
+  [self functionChanged:nil];
+}
+
 - (IBAction)functionChanged:(id)sender {
-  AN3DFunction * fn = [[AN3DFunction alloc] initWithFuncString:fnView.stringValue];
-  AN3DGraphInfo * info = [[AN3DGraphInfo alloc] init];
-  info.xCount = [samplesXView intValue];
-  info.yCount = [samplesYView intValue];
-  info.xStart = [startXView doubleValue];
-  info.yStart = [startYView doubleValue];
-  info.sampleWidth = [sampleWidthView doubleValue];
-  info.sampleHeight = [sampleHeightView doubleValue];
-  [oglView setFunction:fn info:info];
+  FAFunction * fn = [[FAFunction alloc] initWithFuncString:fnView.stringValue];
+  [oglView setFunction:fn info:[spreadPicker getSpreader]];
 }
 
 @end

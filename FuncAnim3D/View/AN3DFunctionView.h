@@ -8,7 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 #import <GLKit/GLKit.h>
-#import "AN3DFunctionModel.h"
+#import "FAFunctionModel.h"
+#import "FARectangularSpreader.h"
 
 @interface AN3DFunctionView : NSOpenGLView {
   NSOpenGLContext * context;
@@ -22,8 +23,8 @@
 
 @property (readwrite) GLKVector4 rotation;
 @property (readwrite) GLKVector3 translation;
-@property (readwrite) AN3DFunctionModel * model;
+@property (readwrite) FAFunctionModel * model;
 
-- (void)setFunction:(AN3DFunction *)fn info:(AN3DGraphInfo *)info;
+- (void)setFunction:(FAFunction *)fn info:(FARectangularSpreader *)info;
 
 @end

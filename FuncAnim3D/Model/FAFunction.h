@@ -10,7 +10,7 @@
 #import <JavaScriptCore/JavaScriptCore.h>
 #import <OpenGL/OpenGL.h>
 
-@interface AN3DFunction : NSObject {
+@interface FAFunction : NSObject {
   NSString * funcString;
   
   JSContext * context;
