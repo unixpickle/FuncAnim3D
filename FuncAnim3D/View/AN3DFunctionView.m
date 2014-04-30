@@ -61,7 +61,7 @@
   [context makeCurrentContext];
   FAFunctionModel * theModel = [[FAFunctionModel alloc] initWithFunction:fn
                                                                 spreader:info
-                                                                   color:GLKVector4Make(1, 1, 0, 1)];
+                                                                   color:GLKVector4Make(0.7, 0, 1, 1)];
   [theModel generateWithT:0];
   _model = theModel;
   [self setNeedsDisplay:YES];
@@ -77,7 +77,7 @@
 - (void)drawRect:(NSRect)dirtyRect {
   [context setView:self];
   [context makeCurrentContext];
-  glClearColor(1, 1, 1, 1.0f);
+  glClearColor(0, 0, 0, 1.0f);
   glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
   
   glViewport(0, 0, [self frame].size.width, [self frame].size.height);
